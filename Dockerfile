@@ -16,8 +16,8 @@ RUN pip3 install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pyt
 RUN apt-get install -y wget
 
 # spark
-RUN wget http://apache.mirror.cdnetworks.com/spark/spark-3.0.0-preview2/spark-3.0.0-preview2-bin-hadoop2.7.tgz
-RUN tar -xzf spark-3.0.0-preview2-bin-hadoop2.7.tgz
+RUN wget http://apache.mirror.cdnetworks.com/spark/spark-3.0.0/spark-3.0.0-bin-hadoop2.7.tgz
+RUN tar -xzf spark-3.0.0-bin-hadoop2.7.tgz
 RUN mv spark-3.0.0-preview2-bin-hadoop2.7 /opt/spark-3.0.0
 RUN ln -s /opt/spark-3.0.0 /opt/spark
 
