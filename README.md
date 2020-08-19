@@ -42,3 +42,9 @@
     ```bash
     docker logs -f lab
     ```
+
+
+1. **Refer to the below `URL` for details.**
+
+    https://hub.docker.com/r/dahuin000/lab
+
