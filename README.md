@@ -1,23 +1,4 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="./static/icon.png" alt="Project logo" ></a>
- <br>
-
- 
-</p>
-
-<h3 align="center">Docker Lab</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/da-huin/docker-lab.svg)](https://github.com/da-huin/docker-lab/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/da-huin/docker-lab.svg)](https://github.com/da-huin/docker-lab/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
-
----
+# Docker Lab
 
 <p align="center"> 
     <br> This docker is a research jupyterlab that can be used in various way such as Spark, Machine Learning and Deep Learning.
