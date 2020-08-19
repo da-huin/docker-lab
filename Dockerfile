@@ -11,7 +11,7 @@ RUN apt-get install python3-pip -y
 RUN pip3 install --upgrade pip
 RUN apt-get install g++ openjdk-8-jdk python3-dev python3-pip curl -y
 
-#torch
+# torch
 RUN pip3 install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 RUN apt-get install -y wget
 
@@ -54,6 +54,5 @@ RUN pip3 install pymysql
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install -y nodejs
 RUN jupyter labextension install jupyterlab-plotly
-
 
 CMD jupyter lab --ip=0.0.0.0 --port=8888 --allow-root
